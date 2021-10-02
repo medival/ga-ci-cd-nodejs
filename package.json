@@ -20,7 +20,9 @@
   "homepage": "https://github.com/2pai/github-actions-ci-cd-nodejs#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "http": "0.0.1-security"
+    "http": "0.0.1-security",
+    "jest": "^26.4.2",
+    "supertest": "^4.0.2"
   },
   "devDependencies": {
     "jest": "^26.4.2",
