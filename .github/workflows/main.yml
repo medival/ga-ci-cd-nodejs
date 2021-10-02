@@ -28,5 +28,5 @@ jobs:
             cd ~/app/ga-ci-cd-nodejs
             git pull origin master
             git status
-            npm install --only=prod
+            sudo npm install --only=prod
             pm2 restart randomApp
